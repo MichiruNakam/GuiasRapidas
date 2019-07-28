@@ -3,6 +3,7 @@
 Programa de linea de comandos para crear múltiples hilos de la terminal, que se pueden desacoplar para funcionar aún después de cortar una conexión.
 ### Crear una nueva screen
 `screen`  ctr+A+C
+
 *Inmediatamente después puedes ejecutar la tarea que desees*
 ### Desacoplar la screen actual
 ctr+A+D
