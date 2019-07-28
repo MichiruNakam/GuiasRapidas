@@ -10,8 +10,10 @@ ctr+A+D
 `screen -ls`
 ### Reacoplar screens
 `screen -r` si hay solo una
+
 `screen -r <id-screen>` si hay más de una
 
 ### Eliminar screens
 `killall screen` para eliminarlas todas
+
 `screen -S <id-screen> -X quit` para eliminar una
