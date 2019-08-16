@@ -26,4 +26,4 @@ Tecla Q
 `delete from <nombretabla>;`
 
 ## Indexar tabla
-`CREATE INDEX index_name ON table_name;`
+`CREATE INDEX index_name ON table_name(column_name);` de una sola columna
