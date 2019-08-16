@@ -14,7 +14,7 @@ Gestor de bases de datos.
 Tecla Q
 
 ## Conectarse a una base de datos
-`\c <nombrebd>
+`\c <nombrebd>`
 
 ## Listar tablas
 `\dt`
