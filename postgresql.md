@@ -5,7 +5,7 @@ Gestor de bases de datos.
 `sudo -u postgres pqsl`
 
 ## Crear base de datos
-`create database <nombrebd>`
+`create database <nombrebd>;`
 
 ## Listar bases de datos
 `\l` o `\list`
@@ -20,7 +20,10 @@ Tecla Q
 `\dt`
 
 ## Eliminar tabla
-`drop table <nombretabla>`
+`drop table <nombretabla>;`
 
 ## Limpiar tabla
-`delete from <nombretabla>`
+`delete from <nombretabla>;`
+
+## Indexar tabla
+`CREATE INDEX index_name ON table_name;`
