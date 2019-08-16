@@ -1,5 +1,5 @@
 # Resumen
-Gestor de bases de datos.
+Gestor de bases de datos potente y seguro.
 
 ## Entrar a usuario postgres
 `sudo -u postgres pqsl`
