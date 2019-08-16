@@ -5,7 +5,7 @@ Gestor de bases de datos.
 `sudo -u postgres pqsl`
 
 ## Crear base de datos
-`create database <nombrebd>
+`create database <nombrebd>`
 
 ## Listar bases de datos
 `\l` o `\list`
