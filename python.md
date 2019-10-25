@@ -5,8 +5,12 @@ Lenguaje de programación de alto nivel.
 `l = []`
 ### Agregar elemento
 `l.append(x)`
+### Obtener último elemento
+`l[-1]`
 # Diccionarios
 ### Crear diccionario vacío
 `d = {}`
 ### Agregar elemento
-`d[k] = v`
+`d[key] = value`
+### Iterar sobre diccionario
+`for key, value in d.items():`
