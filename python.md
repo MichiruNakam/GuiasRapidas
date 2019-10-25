@@ -14,3 +14,6 @@ Lenguaje de programación de alto nivel.
 `d[key] = value`
 ### Iterar sobre diccionario
 `for key, value in d.items():`
+# Funciones
+### Expandir lista a argumentos
+`foo(*l)` es equivalente a `foo(l[0], l[1], ...)`
