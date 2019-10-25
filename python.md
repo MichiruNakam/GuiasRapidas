@@ -6,7 +6,7 @@ Lenguaje de programación de alto nivel.
 ### Agregar elemento
 `l.append(x)`
 ### Obtener último elemento
-`l[-1]`
+`l[-1]` ó `l[len(l) - 1]`
 # Diccionarios
 ### Crear diccionario vacío
 `d = {}`
