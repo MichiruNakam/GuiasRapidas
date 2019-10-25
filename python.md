@@ -1,12 +1,12 @@
 # Resumen
 Lenguaje de programación de alto nivel.
 # Listas
-## Crear lista vacía
+### Crear lista vacía
 `l = []`
-## Agregar elemento
+### Agregar elemento
 `l.append(x)`
 # Diccionarios
-## Crear diccionario vacío
+### Crear diccionario vacío
 `d = {}`
-## Agregar elemento
+### Agregar elemento
 `d[k] = v`
