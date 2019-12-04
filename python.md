@@ -17,3 +17,25 @@ Lenguaje de programación de alto nivel.
 # Funciones
 ### Expandir lista a argumentos
 `foo(*l)` es equivalente a `foo(l[0], l[1], ...)`
+### Map: Aplicar función a cada elemento de una lista
+
+`def foo(a): return a + 5`
+
+`l = [1, 2, 3]`
+
+`result = map(foo, l)`
+
+`print(list(result))`
+
+>[6, 7, 8]
+
+### Reduce: Aplicar función a todos los elementos de una lista
+`from functools import reduce`
+
+`def foo(a, b): return a + b`
+
+`l = [1, 2, 3] `
+
+`print(reduce(foo, l))`
+
+> 6
