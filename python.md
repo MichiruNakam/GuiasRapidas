@@ -7,6 +7,14 @@ Lenguaje de programación de alto nivel.
 `l.append(x)`
 ### Obtener último elemento
 `l[-1]` ó `l[len(l) - 1]`
+# Stack
+`stack = [] #Crear`
+`stack.append(x) #Push`
+`stack.pop() #Pop (retorna el objeto)`
+# Queue
+`queue = [] #Crear`
+`queue.append(x) #Enqueue`
+`queue.popleft() #Dequeue (retorna el objeto)`
 # Diccionarios
 ### Crear diccionario vacío
 `d = {}`
