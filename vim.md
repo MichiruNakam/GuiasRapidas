@@ -1,18 +1,20 @@
-## Modificar
+# VIM
+Editor de texto de linea de comandos.
+### Modificar
 `i`
-## Eliminar la linea seleccionada
+### Eliminar la linea seleccionada
 `dd`
-## Eliminar todo lo que viene después, en la misma linea, del cursor
+### Eliminar todo lo que viene después, en la misma linea, del cursor
 `SHIFT + G`
-## Deshacer
+### Deshacer
 `u`
-## Ir a la primera linea
+### Ir a la primera linea
 `:1`
-## Cerrar sin guardar
+### Cerrar sin guardar
 `:q`
-## Cerrar sin guardar forzado
+### Cerrar sin guardar forzado
 `:q!`
-## Cerrar y guardar
+### Cerrar y guardar
 `:x`
-## Guardar
+### Guardar
 `:w`
