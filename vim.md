@@ -11,14 +11,14 @@ Editor de texto de linea de comandos.
 ### Deshacer
 `u`
 ### Ir a la primera linea
-`:1`
+`:1 + ENTER`
 ### Ir a la última linea
 `G`
 ### Cerrar sin guardar
-`:q`
+`:q + ENTER`
 ### Cerrar sin guardar forzado
-`:q!`
+`:q! + ENTER`
 ### Cerrar y guardar
-`:x`
+`:x + ENTER`
 ### Guardar
-`:w`
+`:w + ENTER`
