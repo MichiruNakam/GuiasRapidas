@@ -6,3 +6,5 @@
   `sed -i 's/{texto_a_reemplazar}/{texto_nuevo}/g' {nombre_de_archivo}`
 ## Listar recursivamente el contenido del directorio actual
 `ls -R`
+## Número de archivos en un directorio
+`ls -1 | wc -l`
