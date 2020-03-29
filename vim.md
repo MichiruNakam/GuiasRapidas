@@ -15,10 +15,10 @@ Editor de texto de linea de comandos.
 ### Ir a la última linea
 `G`
 ### Cerrar sin guardar
-`:q + ENTER`
+`:q` + `ENTER`
 ### Cerrar sin guardar forzado
-`:q! + ENTER`
+`:q!` + `ENTER`
 ### Cerrar y guardar
-`:x + ENTER`
+`:x` + `ENTER`
 ### Guardar
-`:w + ENTER`
+`:w` + `ENTER`
