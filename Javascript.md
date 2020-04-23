@@ -11,3 +11,19 @@ Para hacer un log del objeto en un instante dado se puede hacer:
 
 `JSON.parse` retorna un objeto en base a un string serializado.
 
+## Lambda
+
+Las funciones anónimas se pueden definir por medio funciones arrow de ES6:
+
+   `() => value`
+   
+   `e => value`
+   
+   `(a, b) =>{return value}`
+   
+Donde () puede tener multiples argumentos y value es la función de retorno.
+De otra forma se puede definir dentro de una función común:
+
+`const fun = function(a){return a + 1 };`
+
+  
