@@ -1,6 +1,9 @@
 ## Contenidos
 
 [Estructuras de datos](#estructuras-de-datos)
+* [Listas](#listas)
+* [Diccionarios](#diccionarios)
+* [Sets](#sets)
 
 ## Estructuras de datos
 
@@ -16,7 +19,7 @@
 * `ref`: Paso por referencia
 * `--`: No soportado
 
-### Listas / Arrays
+### Listas
 
 #### Métodos y atributos
 Operación | Python | Javascript | C++
