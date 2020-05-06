@@ -7,6 +7,7 @@
 * `i`: Índice
 * `k`: Llave
 * `v`: Valor
+* `type`: Tipo de dato
 * `val`: Paso por valor
 * `ref`: Paso por referencia
 
@@ -37,10 +38,10 @@ Soporta índice negativo | ✔️ | ✔️ | X
 #### Métodos y atributos
 Operación | Python | Javascript | C++
 --- | --- | --- | ---
-Crear vacío | s = {}| s = {}| map<type k,type v> s;
-Leer valor de llave | s[k]| s[k]| s[k];
-Añadir(Actualizar) llave / valor | s[k] = v| s[k] = v| s[k] = v;
-Eliminar llave | s.pop(k)| -- | s.erase(k);
+Crear vacío | `s = {}`| `s = {}`| `map<type k,type v> s;`
+Leer valor de llave | `s[k]`| `s[k]`| `s[k];`
+Añadir(Actualizar) llave / valor | `s[k] = v`| `s[k] = v`| `s[k] = v;`
+Eliminar llave | `s.pop(k)`| -- | `s.erase(k);`
 
 #### Características
 Característica | Python | Javascript | C++
