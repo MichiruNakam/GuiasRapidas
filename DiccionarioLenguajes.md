@@ -27,7 +27,7 @@ Eliminar elemento al final | `s.pop()` | `s.pop()`| --
 Eliminar elemento al principio | `s.pop(0)`| `s.shift()`| --
 Eliminar elemento por índice | `s.pop(i)`| -- | --
 Obtener índice de un elemento | `s.index(x)`| `s.indexOf(x)`| --
-Tamaño | len(s)| |
+Tamaño | `len(s)`| |
 
 #### Características
 Característica | Python | Javascript | C++
@@ -38,13 +38,15 @@ Soporta índice negativo | ✔️ | ✔️ | X
 ### Diccionarios
 
 #### Métodos y atributos
-Operación | Python | Javascript | C++
+Operación | Python | Javascript | C++*
 --- | --- | --- | ---
 Crear vacío | `s = {}`| `s = {}`| `map<type k,type v> s;`
 Leer valor de llave | `s[k]`| `s[k]`| `s[k];`
 Añadir(Actualizar) llave / valor | `s[k] = v`| `s[k] = v`| `s[k] = v;`
 Eliminar llave | `s.pop(k)`|    | `s.erase(k);`
-Tamaño (Cantidad de llaves) | len(s)| |
+Tamaño (Cantidad de llaves) | `len(s)`| |
+
+*Requiere la librería std
 
 #### Características
 Característica | Python | Javascript | C++
@@ -54,7 +56,7 @@ Soporta multitipo de llaves o valores | ✔️ | ✔️ | X
 
 ### Sets
 #### Métodos y atributos
-Operación | Python | Javascript | C++
+Operación | Python | Javascript | C++*
 --- | --- | --- | ---
 Crear vacío | `s = set()` | | `set<type> s;`
 Añadir | `s.add(x)`| | `s.insert(x);`
@@ -69,3 +71,5 @@ Característica | Python | Javascript | C++
 --- | --- | --- | ---
 Paso de argumento | ref | ref | ref
 Unicidad de elementos | ✔️ | ✔️ | X
+
+*Requiere la librería std
