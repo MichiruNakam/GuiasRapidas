@@ -1,3 +1,7 @@
+## Contenidos
+
+[Estructuras de datos](#estructuras-de-datos)
+
 ## Estructuras de datos
 
 ### Terminología
