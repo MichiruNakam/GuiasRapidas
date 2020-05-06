@@ -5,6 +5,8 @@
 * `s`: Estructura
 * `x`: Elemento
 * `i`: Índice
+* `val`: Por valor
+* `ref`: Por referencia
 
 ### Listas / Arrays
 
@@ -24,5 +26,6 @@ Obtener índice de un elemento | `s.index(x)`| `s.indexOf(x)`| --
 
 #### Características
 Característica | Python | Javascript | C++
+--- | --- | --- | ---
 Paso de argumento | ref | ref | ref
 Soporta índice negativo | ✔️ | ✔️ | X
