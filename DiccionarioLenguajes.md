@@ -5,8 +5,10 @@
 * `s`: Estructura
 * `x`: Elemento
 * `i`: Índice
-* `val`: Por valor
-* `ref`: Por referencia
+* `k`: Llave
+* `v`: Valor
+* `val`: Paso por valor
+* `ref`: Paso por referencia
 
 ### Listas / Arrays
 
@@ -29,3 +31,19 @@ Característica | Python | Javascript | C++
 --- | --- | --- | ---
 Paso de argumento | ref | ref | ref
 Soporta índice negativo | ✔️ | ✔️ | X
+
+### Diccionarios
+
+#### Métodos y atributos
+Operación | Python | Javascript | C++
+--- | --- | --- | ---
+Crear vacío | s = {}| s = {}| map<type k,type v> s;
+Leer valor de llave | s[k]| s[k]| s[k];
+Añadir(Actualizar) llave / valor | s[k] = v| s[k] = v| s[k] = v;
+Eliminar llave | s.pop(k)| -- | s.erase(k);
+
+#### Características
+Característica | Python | Javascript | C++
+--- | --- | --- | ---
+Paso de argumento | ref | ref | ref
+Soporta multitipo de llaves o valores | ✔️ | ✔️ | X
