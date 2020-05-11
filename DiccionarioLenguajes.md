@@ -41,6 +41,7 @@ Característica | Python | Javascript | C++
 --- | --- | --- | ---
 Paso de argumento | ref | ref | ref
 Soporta índice negativo | ✔️ | ✔️ | X
+Thread-safety (ReadWrite) | ✔️✔️| | ✔️X
 
 ### Diccionarios
 
@@ -60,6 +61,7 @@ Característica | Python | Javascript | C++
 --- | --- | --- | ---
 Paso de argumento | ref | ref | ref
 Soporta multitipo de llaves o valores | ✔️ | ✔️ | X
+Thread-safety (ReadWrite) | ✔️✔️| | ✔️X
 
 ### Sets
 #### Métodos y atributos
@@ -78,5 +80,6 @@ Característica | Python | Javascript | C++
 --- | --- | --- | ---
 Paso de argumento | ref | ref | ref
 Unicidad de elementos | ✔️ | ✔️ | X
+Thread-safety (ReadWrite) | ✔️✔️| | ✔️X
 
 *Requiere la librería std
