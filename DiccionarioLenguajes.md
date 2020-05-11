@@ -4,7 +4,8 @@
 * [Listas](#listas)
 * [Diccionarios](#diccionarios)
 * [Sets](#sets)
-[Threading][#threading]
+
+[Threading](#threading)
 * [Mutex](#mutex)
 
 ## Estructuras de datos
@@ -94,7 +95,7 @@ Thread-safety (ReadWrite) | ✔️✔️| | ✔️X
 
 Operación | Python | Javascript | C++*
 --- | --- | --- | ---
-Bloquear | acquire() | | lock();
-Desbloquear | release()| | unlock();
-Intentar desbloqueo | | | try_lock();
-Verificar bloqueo | locked() | |
+Bloquear | `acquire()` | | `lock();`
+Desbloquear | `release()`| | `unlock();`
+Intentar desbloqueo | -- | | `try_lock();`
+Verificar bloqueo | `locked()` | | --
