@@ -4,6 +4,8 @@
 * [Listas](#listas)
 * [Diccionarios](#diccionarios)
 * [Sets](#sets)
+[Threading][#threading]
+* [Mutex](#mutex)
 
 ## Estructuras de datos
 
@@ -83,3 +85,16 @@ Unicidad de elementos | ✔️ | ✔️ | X
 Thread-safety (ReadWrite) | ✔️✔️| | ✔️X
 
 *Requiere la librería std
+
+## Threading
+
+### Mutex
+
+####Métodos y Atributos
+
+Operación | Python | Javascript | C++*
+--- | --- | --- | ---
+Bloquear | acquire() | | lock();
+Desbloquear | release()| | unlock();
+Intentar desbloqueo | | | try_lock();
+Verificar bloqueo | locked() | |
