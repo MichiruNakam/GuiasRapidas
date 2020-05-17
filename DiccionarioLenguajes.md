@@ -38,6 +38,7 @@ Eliminar elemento al principio | `s.pop(0)`| `s.shift()`| --
 Eliminar elemento por índice | `s.pop(i)`| -- | --
 Obtener índice de un elemento | `s.index(x)`| `s.indexOf(x)`| --
 Tamaño | `len(s)`| |
+Copiar lista por valor | | s.slice()|
 
 #### Características
 Característica | Python | Javascript | C++
