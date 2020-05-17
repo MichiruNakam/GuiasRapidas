@@ -29,6 +29,7 @@ Operación | Python | Javascript | C++
 --- | --- | --- | ---
 Crear vacío| `s = []` | `s = []` | `<type> s[size];` 
 Leer elemento | `s[i]` | `s[i]`|  `s[i];`
+Leer último | | `s[s.length - 1]`| 
 Cambiar elemento | `s[i] = x`| `s[i] = x`| `s[i] = x;` 
 Agregar elemento al final | `s.append(x)` | `s.push(x)` | --
 Agregar elemento al principio | `s.insert(0, x)`| `s.unshift(x)`| --
@@ -38,7 +39,7 @@ Eliminar elemento al principio | `s.pop(0)`| `s.shift()`| --
 Eliminar elemento por índice | `s.pop(i)`| -- | --
 Obtener índice de un elemento | `s.index(x)`| `s.indexOf(x)`| --
 Tamaño | `len(s)`| |
-Copiar lista por valor | | s.slice()|
+Copiar lista por valor | | `s.slice()`|
 
 #### Características
 Característica | Python | Javascript | C++
