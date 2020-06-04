@@ -9,3 +9,6 @@
 
 ## Ver el encoding de un archivo
 `file -bi <file name>`
+
+## Listar el tamaño de cada archivo o directorio en la carpeta actual
+`du` (`-h` para formato humano)
