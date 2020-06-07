@@ -5,6 +5,12 @@ Programa de linea de comandos para crear múltiples hilos de la terminal, que se
 `screen`  ctr+A+C
 
 *Inmediatamente después puedes ejecutar la tarea que desees*
+
+#### Crear una nueva screen con log
+`screen -L`
+
+Esto creará el archivo screenlog.x en el directorio actual.
+
 ### Desacoplar la screen actual
 ctr+A+D
 ### Listar screens
