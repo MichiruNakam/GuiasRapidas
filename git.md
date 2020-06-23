@@ -21,3 +21,15 @@ Actualizar el gitignore y hacer commit de todos los últimos cambios.
 `git commit -m "gitignore refresh"`
 
 `git push origin master`
+
+### Guardar cambios locales y volver al último pull hecho
+
+`git stash`
+
+### (Re)aplicar los cambios guardados
+
+`git stash apply`
+
+### Descartar los cambios hechos
+
+`git stash clear`
