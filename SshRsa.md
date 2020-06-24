@@ -2,7 +2,7 @@
 
 ### Generar llave
 
-`ssh-keygen -t rsa -b 4096`
+`ssh-keygen`
  
 ### Poner llave en servidor remoto
 
