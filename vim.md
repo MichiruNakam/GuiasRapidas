@@ -11,9 +11,15 @@ Editor de texto de linea de comandos.
 ### Deshacer
 `u`
 ### Ir a la primera linea
-`:1` + `ENTER`
+`1G`
 ### Ir a la última linea
 `G`
+### Ir a la x (número) linea
+`xG`
+### Ir al principio de la linea
+`0`
+### Ir al final de la linea
+`$`
 ### Cerrar sin guardar
 `:q` + `ENTER`
 ### Cerrar sin guardar forzado
