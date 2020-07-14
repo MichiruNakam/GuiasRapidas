@@ -3,7 +3,9 @@
 ## Crear virtualenv
 
 Navegar al directorio
+
 `virtualenv <venv>` Para python 2
+
 `virtualenv -p python 3 <venv>` Para python 3
 
 ## Activar virtualenv
