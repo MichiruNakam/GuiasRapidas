@@ -14,3 +14,6 @@
 
 ## Entrar al bash de un container activo
 `docker exec -it <container_id> /bin/bash`
+
+## Matar un container
+`docker kill <container_id>`
