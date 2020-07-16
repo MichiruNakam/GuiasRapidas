@@ -17,3 +17,10 @@
 
 ## Matar un container
 `docker kill <container_id>`
+
+## Detener todos los containers
+`docker stop $(docker ps -aq)`
+
+## Eliminar todos los containers*
+`docker rm $(docker ps -aq)`
+*Solo funciona cuando los containers están detenidos
