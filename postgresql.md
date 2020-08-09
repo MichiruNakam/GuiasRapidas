@@ -5,7 +5,7 @@ Gestor de bases de datos potente y seguro.
 `psql -U <user> <database>`
 
 ## Entrar a usuario postgres (administrador)
-`sudo -u postgres pqsl`
+`sudo -u postgres psql`
 
 ## Crear usuario (desde administrador)
 `create user <user>`
