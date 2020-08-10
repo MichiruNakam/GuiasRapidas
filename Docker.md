@@ -11,6 +11,9 @@ navegar al directorio
 ## Eliminar imágenes, containers, volumes y networks no usados
 `docker system prune -a`
 
+## Eliminar una imagen por id
+`docker rmi <image_id>` (`-f` para forzar)
+
 ## Listar imágenes
 `docker image ls`
 
