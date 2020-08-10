@@ -1,5 +1,10 @@
 # Docker
 
+## Crear imagen a partir de un Dockerfile
+navegar al directorio
+
+`docker build . -t <nombre_image:version>`
+
 ## Eliminar imágenes, containers, volumes y networks basura
 `docker system prune`
 
