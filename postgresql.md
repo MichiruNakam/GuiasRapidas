@@ -10,6 +10,9 @@ Gestor de bases de datos potente y seguro.
 ## Crear usuario (desde administrador)
 `create user <user>`
 
+## Cambiar clave de usuario (desde administrador)
+`alter user <user> with password <new_password>`
+
 ## Cambiar a modo trust
 El modo por defecto de autenticación de usuarios es peer. Esto significa que los usuarios de postgres deben existir en postgres y en el sistema operativo. En modo trust, solo necesitan existir en postgres, y en modo md5 solo deben existir en postgres pero con contraseña.
 `sudo nano /etc/postgresql/10/main/pg_hba.conf`
