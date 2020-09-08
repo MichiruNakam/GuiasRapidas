@@ -2,7 +2,7 @@
 
 ## VPN - Cisco Anyconnect 
 
-  Para no tener que utilizar el software propietario de cisco existe una alternativa open-source compatible con cualer OS basado en linux:
+  Para no tener que utilizar el software propietario de cisco existe una alternativa open-source compatible con cualquier OS basado en linux:
    <strong>Open Connect</strong>
    
     sudo apt install openconnect network-manager-openconnect network-manager-openconnect-gnome
