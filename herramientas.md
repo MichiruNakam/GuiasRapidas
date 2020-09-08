@@ -16,6 +16,9 @@
 [Web Sequence Diagram](https://www.websequencediagrams.com/)
 
 ## Paletas de Colores
+
+[Coolors](https://coolors.co/)
+
 [Color Hunt](https://colorhunt.co/)
 
 
