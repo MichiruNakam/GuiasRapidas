@@ -5,3 +5,6 @@
 
 ## Procesamiento del Lenguaje Natural
 [Uchile](https://github.com/dccuchile/CC6205)
+
+## Deep Learning
+[Uchiñe](https://github.com/dccuchile/CC6204)
