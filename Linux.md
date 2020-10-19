@@ -11,7 +11,7 @@
 `file -bi <file name>`
 
 ## Modificar el encoding de un archivo
-`iconv-f <from-encoding> -t <to-encoding> <inputfile(s)> -o <outputfile>`
+`iconv -f <from-encoding> -t <to-encoding> <inputfile(s)> -o <outputfile>`
 
 ## Listar el tamaño de cada archivo o directorio en la carpeta actual
 `du` (`-h` para formato humano)
