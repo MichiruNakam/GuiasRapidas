@@ -24,4 +24,4 @@
 
 ## Transformación de Imágenes Online
 
-[Pinetool](https://pinetools.com/c-colors/)
+[Pinetool](https://pinetools.com/c-images/)
