@@ -25,3 +25,15 @@
 ## Transformación de Imágenes Online
 
 [Pinetool](https://pinetools.com/c-images/)
+
+## Íconos Royalty Free
+
+[Flaticon](https://www.flaticon.com/)
+
+[Iconfinder](https://www.iconfinder.com/)
+
+## Imágenes Royalty Free
+
+[Pexels](https://www.pexels.com/es-es/)
+
+[Unsplash](https://unsplash.com/)
