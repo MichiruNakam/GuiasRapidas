@@ -37,3 +37,6 @@
 [Pexels](https://www.pexels.com/es-es/)
 
 [Unsplash](https://unsplash.com/)
+
+[Ilustraciones](https://undraw.co/illustrations)
+[Personajes](https://www.openpeeps.com/)
